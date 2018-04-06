@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.search-bar {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.update-rates-checkbox {
+  margin-left: 15px;
+}

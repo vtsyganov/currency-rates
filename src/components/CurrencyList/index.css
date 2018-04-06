@@ -1,0 +1,25 @@
+.rates-list {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 15px;
+}
+
+.currency {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 10px;
+}
+
+.currency:last-child {
+  margin-bottom: 0;
+}
+
+.currency-name {
+  font-weight: 600;
+  min-width: 40px;
+}
+
+.currency-rate {
+  margin: 0 10px;
+  min-width: 80px;
+}
